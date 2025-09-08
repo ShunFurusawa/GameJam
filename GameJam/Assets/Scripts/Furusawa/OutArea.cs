@@ -7,11 +7,9 @@ namespace Scripts.Furusawa
     {
         private void OnTriggerEnter2D(Collider2D other)
         {
-          
             if (other.CompareTag("Bullet"))
             {
                 Destroy(other.gameObject);
-                Debug.Log(other.gameObject.name);
             }
         }
     }
