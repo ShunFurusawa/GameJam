@@ -9,7 +9,7 @@ namespace Scripts.Furusawa
     {
         Patrol,
         Bound,
-        Chase
+        Poke
     }
     public class BossManager : MonoBehaviour
     {
@@ -19,11 +19,24 @@ namespace Scripts.Furusawa
         [SerializeField] private float preparationTime = 1f;
         
         [SerializeField] private BossPatrol bossPatrol;
+        [SerializeField] private PokeCursor pokeCursor;
 
         private BossState currentState = BossState.Patrol;
         private float time = 0f;
         private bool isChangingState = false;
         
+        private void Start()
+        {
+            if (bossPatrol == null || pokeCursor == null)
+            {
+                Debug.LogError("BossPatrol or PokeCursor is not assigned.");
+                enabled = false; 
+                return;
+            }
+            StopAllActions();
+            OnStateChange();
+        }
+       
         private void Update()
         {
             if (isChangingState)
@@ -73,8 +86,8 @@ namespace Scripts.Furusawa
                 case BossState.Bound:
                     // Bound攻撃のロジックをここに追加
                     break;
-                case BossState.Chase:
-                    // Chase攻撃のロジックをここに追加
+                case BossState.Poke:
+                    pokeCursor.enabled = true;
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
@@ -84,6 +97,7 @@ namespace Scripts.Furusawa
         private void StopAllActions()
         {
             bossPatrol.enabled = false;
+            pokeCursor.enabled = false;
             // 他の攻撃モードのスクリプトもここで無効化する
         }
         

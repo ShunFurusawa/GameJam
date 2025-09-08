@@ -18,7 +18,7 @@ namespace Scripts.Furusawa
         private int currentWaypointIndex = 0;
         private bool isWaiting = false; 
 
-        private void Start()
+        private void Awake()
         {
             // 全部の巡回地点取得
             waypoints = new Transform[waypointParent.childCount];
@@ -30,9 +30,12 @@ namespace Scripts.Furusawa
             if (waypoints.Length == 0)
             {
                 Debug.LogError("No waypoints found");
-                return;
             }
-            
+        
+        }
+
+        private void OnEnable()
+        {
             isWaiting = true; 
             StartCoroutine(WaitAndRotate());
         }
@@ -43,7 +46,7 @@ namespace Scripts.Furusawa
         }
 
     
-        public void MoveToNextWaypoint()
+        private void MoveToNextWaypoint()
         {
             if (waypoints.Length == 0 || isWaiting)
                 return;
