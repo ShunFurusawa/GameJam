@@ -43,6 +43,7 @@ namespace Scripts.Furusawa
                 else
                 {
                     // ライフが0になったらオブジェクトを破壊
+                    Debug.Log("ライフがゼロに", gameObject);
                     if (isDestroyedOnZeroLife)
                     {
                         Destroy(gameObject);
