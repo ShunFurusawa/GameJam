@@ -49,14 +49,37 @@ MonoBehaviour:
     BGM: {fileID: 7464887712444936200, guid: 7bfa5e1c199f9b1449df6e3001e5db3f, type: 2}
     SE: {fileID: -5146134221343128024, guid: 7bfa5e1c199f9b1449df6e3001e5db3f, type: 2}
   bgmDatas:
-  - name: BGM
-    audioClip: {fileID: 8300000, guid: bc1161d21fd33614baadc8ca3f70b8c1, type: 3}
-    volume: 0.58
+  - name: "\u30E1\u30A4\u30F3BGM"
+    audioClip: {fileID: 8300000, guid: d8a11d6693d4b3b4bb20b0cae601f24a, type: 3}
+    volume: 0.68
+  - name: "\u30E1\u30CB\u30E5\u30FC\u753B\u9762BGM"
+    audioClip: {fileID: 8300000, guid: 5e258c05183fe6241bfc0f0ab12def9f, type: 3}
+    volume: 0.68
   SEDatas:
   - name: "\u6C7A\u5B9A\u97F3"
     audioClip: {fileID: 8300000, guid: 9bb01598a450fe849b3fea34eb57f51f, type: 3}
     playedTime: 0
-    volume: 0.75
+    volume: 0.65
+  - name: "\u30B7\u30E7\u30C3\u30C8\u97F3(\u30D7\u30EC\u30A4\u30E4\u30FC)"
+    audioClip: {fileID: 8300000, guid: c28b499715b0408478aaa9eae011e543, type: 3}
+    playedTime: 0
+    volume: 1
+  - name: "\u30B7\u30E7\u30C3\u30C8\u97F3(\u6575)"
+    audioClip: {fileID: 8300000, guid: a74e2b2167123444db4105b71179051b, type: 3}
+    playedTime: 0
+    volume: 1
+  - name: "\u30B2\u30FC\u30E0\u30AF\u30EA\u30A2"
+    audioClip: {fileID: 8300000, guid: 919c1958dbad38e42bb2f0a702d3d75b, type: 3}
+    playedTime: 0
+    volume: 1
+  - name: "\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC"
+    audioClip: {fileID: 8300000, guid: 4727a09d3f7afba4c91809e846d6502c, type: 3}
+    playedTime: 0
+    volume: 1
+  - name: "\u8B66\u544A\u97F3"
+    audioClip: {fileID: 8300000, guid: 212e7f404ee167c4ca6f5f2b9e8d84f2, type: 3}
+    playedTime: 0
+    volume: 0.77
   playableDistance: 0.2
 --- !u!114 &5370217160411047249
 MonoBehaviour:
