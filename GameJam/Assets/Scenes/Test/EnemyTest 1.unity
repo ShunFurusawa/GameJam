@@ -2329,10 +2329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundManager
       objectReference: {fileID: 0}
-    - target: {fileID: 5370217160411047249, guid: 36c03bc7c78cc3445be085971eec50ab, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 5734797190473078490, guid: 36c03bc7c78cc3445be085971eec50ab, type: 3}
+      propertyPath: bgmDatas.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: dc2532815ecf10049b6e9dde75535a51, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
