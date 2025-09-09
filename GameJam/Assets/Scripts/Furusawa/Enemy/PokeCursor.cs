@@ -20,11 +20,26 @@ namespace Scripts.Furusawa
         [Header("突っ込むオブジェクト")]
         [SerializeField] private Transform targetObject;
         
+        [SerializeField] private bool isNormalEnemy = false;
+        
         private bool isPoking = false;
         private float pokeTimer = 0f;
         private Vector2 directionToTarget;
 
+        private void Start()
+        {
+            if (isNormalEnemy)
+                Init();
+        }
+
         private void OnEnable()
+        {
+            if (isNormalEnemy == false)
+                Init();
+            
+        }
+
+        private void Init()
         {
             if (targetObject == null)
             {
@@ -55,7 +70,6 @@ namespace Scripts.Furusawa
         private void Poke()
         {
             transform.position += (Vector3)directionToTarget * speed * Time.deltaTime;
-            transform.position = new  Vector3(transform.position.x, transform.position.y, 0);
         }
         
         private IEnumerator WaitAndRotate()
@@ -87,10 +101,10 @@ namespace Scripts.Furusawa
         
         private void OnTriggerEnter2D(Collider2D other)
         {
+            Debug.Log("衝突");
             // 突進中、かつ衝突した相手のタグが"Wall"の場合のみ処理
             if (isPoking && other.gameObject.CompareTag("Wall"))
             {
-                Debug.Log("壁に衝突！次の攻撃準備に入ります。");
                 ResetStateAndPrepareNextPoke();
             }
         }
