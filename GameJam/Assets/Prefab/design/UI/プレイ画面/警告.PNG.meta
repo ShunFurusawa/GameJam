@@ -216,6 +216,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1134,7 +1147,48 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\u8B66\u544A_0": 833921380416804624
+      "\u8B66\u544A_1": 5836405372897161557
+      "\u8B66\u544A_10": 5676717069795607905
+      "\u8B66\u544A_11": 4715283334999180464
+      "\u8B66\u544A_12": 6245192641946501992
+      "\u8B66\u544A_13": -2297670134094097192
+      "\u8B66\u544A_14": 8766351640175238209
+      "\u8B66\u544A_15": 2212629705855854373
+      "\u8B66\u544A_16": 4552828384834621182
+      "\u8B66\u544A_17": -3093203581074539806
+      "\u8B66\u544A_18": -6875433444446591421
+      "\u8B66\u544A_19": -570987075177498700
+      "\u8B66\u544A_2": 3918295824456331166
+      "\u8B66\u544A_20": -509177353271721610
+      "\u8B66\u544A_21": 5236585910049509038
+      "\u8B66\u544A_22": -1650428258341832655
+      "\u8B66\u544A_23": 6454815590173700063
+      "\u8B66\u544A_24": 2023756767259870290
+      "\u8B66\u544A_25": 19073714776726566
+      "\u8B66\u544A_26": 4630749357675535174
+      "\u8B66\u544A_27": -7289729195752250366
+      "\u8B66\u544A_28": -3459957656780015514
+      "\u8B66\u544A_29": -6463965179404595012
+      "\u8B66\u544A_3": -4852803844840558426
+      "\u8B66\u544A_30": -3117922253181683968
+      "\u8B66\u544A_31": -1837827076785775593
+      "\u8B66\u544A_32": -5216029613132877865
+      "\u8B66\u544A_33": -2815235146639163962
+      "\u8B66\u544A_34": -6043492071750493090
+      "\u8B66\u544A_35": 7292748700615933522
+      "\u8B66\u544A_36": -7197251651313294229
+      "\u8B66\u544A_37": -8992551432188219541
+      "\u8B66\u544A_38": 4188666290526240783
+      "\u8B66\u544A_39": -1763741394348526435
+      "\u8B66\u544A_4": -5277217421002713504
+      "\u8B66\u544A_40": -8733760259035312353
+      "\u8B66\u544A_5": 2329522698332378173
+      "\u8B66\u544A_6": 6898232555344441371
+      "\u8B66\u544A_7": -5490431238834163417
+      "\u8B66\u544A_8": 6865743537559717388
+      "\u8B66\u544A_9": 5171504044380678250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
