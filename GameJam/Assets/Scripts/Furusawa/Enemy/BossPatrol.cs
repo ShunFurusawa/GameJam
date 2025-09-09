@@ -43,6 +43,7 @@ namespace Scripts.Furusawa
         private void Update()
         {
             MoveToNextWaypoint();
+            transform.position = new  Vector3(transform.position.x, transform.position.y, 0);
         }
 
     

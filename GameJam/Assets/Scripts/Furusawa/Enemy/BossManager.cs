@@ -8,7 +8,7 @@ namespace Scripts.Furusawa
     public enum BossState
     {
         Patrol,
-        Bound,
+      //  Bound,
         Poke
     }
     public class BossManager : MonoBehaviour
@@ -52,9 +52,7 @@ namespace Scripts.Furusawa
         
         private IEnumerator RandomChangeState()
         {
-            
             isChangingState = true;
-            Debug.Log("全行動停止");
             StopAllActions();
             
             // タメ
@@ -83,9 +81,9 @@ namespace Scripts.Furusawa
                 case BossState.Patrol:
                     bossPatrol.enabled = true;
                     break;
-                case BossState.Bound:
+               // case BossState.Bound:
                     // Bound攻撃のロジックをここに追加
-                    break;
+                //    break;
                 case BossState.Poke:
                     pokeCursor.enabled = true;
                     break;
