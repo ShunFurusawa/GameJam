@@ -21,7 +21,7 @@ public static class ScoreManager
     {
         if (scoreText != null)
         {
-            scoreText.text = "Score: " + FinalScore;
+            scoreText.text = "" + FinalScore;
         }
         else
         {
