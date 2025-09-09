@@ -10,9 +10,9 @@ namespace Scripts.Furusawa
         
         private float timer = 0f;
 
-        private void Update()
+        private void FixedUpdate()
         {
-            timer += Time.deltaTime;
+            timer += Time.fixedDeltaTime;
 
             if (timer >= shootInterval)
             {
