@@ -1,36 +1,38 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 
 public class Timer : MonoBehaviour
 {
-    public TextMeshProUGUI timerText; 
-    public float Starttime = 120f;
-    private float RemainTime = 0f;
-    private bool isRunning = true; 
-     void Start()
+    public TextMeshProUGUI timerText;
+    public float Limittime = 120f;
+    public float RemainTime = 0f;
+    private bool isRunning = true;
+    void Start()
     {
-        RemainTime = Starttime;
+        RemainTime = Limittime;
         timerText.gameObject.SetActive(true);
     }
     void Update()
     {
         if (isRunning)
         {
-            RemainTime-= Time.deltaTime;
-            if (RemainTime <= 0f) 
+            RemainTime -= Time.deltaTime;
+            if (RemainTime <= 0f)
             {
                 RemainTime = 0f;
                 isRunning = false;
                 timerText.text = "00:00:00";
                 StartCoroutine(HideAfterDelay(2f));
-                
+
                 Debug.Log("Time Up");
                 return;
             }
-            int minutes = Mathf.FloorToInt(RemainTime/60f);
-            int seconds = Mathf.FloorToInt(RemainTime%60f);
-            int miniseconds = Mathf.FloorToInt((RemainTime*100f)%100);
+            int minutes = Mathf.FloorToInt(RemainTime / 60f);
+            int seconds = Mathf.FloorToInt(RemainTime % 60f);
+            int miniseconds = Mathf.FloorToInt((RemainTime * 100f) % 100);
             timerText.text = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, miniseconds);
         }
     }
@@ -39,6 +41,7 @@ public class Timer : MonoBehaviour
         yield return new WaitForSeconds(delay);
         timerText.gameObject.SetActive(false);
     }
+
     // タイマーを止める処理
     public void StopTimer()
     {
@@ -49,7 +52,7 @@ public class Timer : MonoBehaviour
     // タイマーをリセットする処理
     public void ResetTimer()
     {
-        RemainTime = Starttime;
+        RemainTime = Limittime;
         isRunning = true;
         timerText.gameObject.SetActive(true);
     }
