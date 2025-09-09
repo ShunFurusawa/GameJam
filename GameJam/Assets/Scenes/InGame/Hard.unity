@@ -1273,6 +1273,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &871592868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2868544161586329867, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+  m_PrefabInstance: {fileID: 8851140104552099841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &871592870 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5870316994663834352, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+  m_PrefabInstance: {fileID: 8851140104552099841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &871592871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871592868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa56ef606c245f5b1c4e7005d3a8474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyedOnZeroLife: 1
+  life: 3
+  flashDuration: 0.1
+  damageSprite: {fileID: 0}
+  deadSprite: {fileID: 0}
+  spriteRenderer: {fileID: 871592870}
 --- !u!1 &954727453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,6 +1597,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDebug: 0
+--- !u!1 &1282797114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2247209035560005266, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+  m_PrefabInstance: {fileID: 8851140104552099841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1282797118 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8919604917272543807, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+  m_PrefabInstance: {fileID: 8851140104552099841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1282797123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282797114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa56ef606c245f5b1c4e7005d3a8474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyedOnZeroLife: 1
+  life: 3
+  flashDuration: 0.1
+  damageSprite: {fileID: 0}
+  deadSprite: {fileID: 0}
+  spriteRenderer: {fileID: 1282797118}
 --- !u!1 &1302543163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1656,6 +1712,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1343509410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 946159935693128593, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+  m_PrefabInstance: {fileID: 8851140104552099841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1343509412 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7683294029031515000, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+  m_PrefabInstance: {fileID: 8851140104552099841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1343509413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343509410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa56ef606c245f5b1c4e7005d3a8474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyedOnZeroLife: 1
+  life: 3
+  flashDuration: 0.1
+  damageSprite: {fileID: 0}
+  deadSprite: {fileID: 0}
+  spriteRenderer: {fileID: 1343509412}
 --- !u!1 &1371265516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,6 +1827,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1455071120 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6803858720939070495, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+  m_PrefabInstance: {fileID: 8851140104552099841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1455071122 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5051076219006388095, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+  m_PrefabInstance: {fileID: 8851140104552099841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1455071123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455071120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa56ef606c245f5b1c4e7005d3a8474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyedOnZeroLife: 1
+  life: 3
+  flashDuration: 0.1
+  damageSprite: {fileID: 0}
+  deadSprite: {fileID: 0}
+  spriteRenderer: {fileID: 1455071122}
 --- !u!1 &1481726869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,6 +2028,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2004911192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1593708538790604310, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+  m_PrefabInstance: {fileID: 8851140104552099841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &2004911194 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5051461001302597007, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+  m_PrefabInstance: {fileID: 8851140104552099841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2004911195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004911192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa56ef606c245f5b1c4e7005d3a8474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyedOnZeroLife: 1
+  life: 3
+  flashDuration: 0.1
+  damageSprite: {fileID: 0}
+  deadSprite: {fileID: 0}
+  spriteRenderer: {fileID: 2004911194}
 --- !u!1 &2016397635
 GameObject:
   m_ObjectHideFlags: 0
@@ -2254,7 +2394,22 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2247209035560005266, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1282797123}
+    - targetCorrespondingSourceObject: {fileID: 2868544161586329867, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 871592871}
+    - targetCorrespondingSourceObject: {fileID: 946159935693128593, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1343509413}
+    - targetCorrespondingSourceObject: {fileID: 6803858720939070495, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1455071123}
+    - targetCorrespondingSourceObject: {fileID: 1593708538790604310, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2004911195}
   m_SourcePrefab: {fileID: 100100000, guid: f5f1e2828b24a434eb9497ea395ae3f0, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
