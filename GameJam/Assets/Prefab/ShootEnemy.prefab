@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1043316353150644830}
   - component: {fileID: 2305519442726738979}
   - component: {fileID: 1989954306968908898}
+  - component: {fileID: 1851039253945541743}
   m_Layer: 8
   m_Name: ShootEnemy
   m_TagString: Enemy
@@ -150,3 +151,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1851039253945541743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5778244870045563473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa56ef606c245f5b1c4e7005d3a8474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyedOnZeroLife: 1
+  life: 3
+  flashDuration: 0.1
+  damageSprite: {fileID: 0}
+  deadSprite: {fileID: 0}
+  spriteRenderer: {fileID: 0}
