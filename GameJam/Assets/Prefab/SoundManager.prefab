@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &944304020071305739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723579456457503843}
+  - component: {fileID: 5734797190473078490}
+  - component: {fileID: 5370217160411047249}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723579456457503843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944304020071305739}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 69.506615, y: 237.28639, z: -8.115758}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5734797190473078490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944304020071305739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 100e4f9580ab43289dd0d6e0c14a488c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixerGroups:
+    BGM: {fileID: 7464887712444936200, guid: 7bfa5e1c199f9b1449df6e3001e5db3f, type: 2}
+    SE: {fileID: -5146134221343128024, guid: 7bfa5e1c199f9b1449df6e3001e5db3f, type: 2}
+  bgmDatas:
+  - name: BGM
+    audioClip: {fileID: 8300000, guid: bc1161d21fd33614baadc8ca3f70b8c1, type: 3}
+    volume: 0.58
+  SEDatas:
+  - name: "\u6C7A\u5B9A\u97F3"
+    audioClip: {fileID: 8300000, guid: 9bb01598a450fe849b3fea34eb57f51f, type: 3}
+    playedTime: 0
+    volume: 0.75
+  playableDistance: 0.2
+--- !u!114 &5370217160411047249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944304020071305739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4150691173045d5bafe867330e3e74f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BGM_name: BGM
